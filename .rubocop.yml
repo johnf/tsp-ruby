@@ -1,0 +1,32 @@
+AllCops:
+    TargetRubyVersion: 2.3
+
+HashSyntax:
+  EnforcedStyle: hash_rockets
+
+Style/Documentation:
+  Enabled: false
+
+# Style/Lambda:
+#   Enabled: false
+
+# Style/TrailingComma:
+#   EnforcedStyleForMultiline: comma
+
+Metrics/ClassLength:
+  Max: 240
+
+Metrics/LineLength:
+  Max: 120
+
+Metrics/MethodLength:
+  Max: 15
+
+Metrics/AbcSize:
+  Max: 20
+
+# Style/ModuleFunction:
+#   Enabled: false
+
+# AlignHash:
+#   EnforcedHashRocketStyle: table
